@@ -149,7 +149,7 @@
         "auto-scripts": {
             "cache:clear --no-warmup": "symfony-cmd",
             "cache:warmup --no-optional-warmers": "symfony-cmd",
-            "assets:install --symlink --relative html": "symfony-cmd"
+            "assets:install --symlink --relative public": "symfony-cmd"
         },
         "installer-scripts": {
             "doctrine:database:create": "bin/console doctrine:database:create",
