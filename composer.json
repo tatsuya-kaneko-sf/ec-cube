@@ -157,7 +157,6 @@
             "eccube:fixtures:load": "bin/console eccube:fixtures:load"
         },
         "post-install-cmd": [
-            "@auto-scripts"
         ],
         "post-update-cmd": [
             "@auto-scripts"
