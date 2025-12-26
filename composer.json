@@ -145,10 +145,7 @@
         }
     },
     "scripts": {
-        "compile": {
-            "doctrine:schema:create": "bin/console doctrine:schema:create",
-            "eccube:fixtures:load": "bin/console eccube:fixtures:load"
-        },
+        "compile": {},
         "auto-scripts": {
             "cache:clear --no-warmup": "symfony-cmd",
             "cache:warmup --no-optional-warmers": "symfony-cmd",
@@ -166,7 +163,6 @@
             "@auto-scripts"
         ],
         "post-create-project-cmd": [
-            "@installer-scripts",
             "@auto-scripts"
         ]
     },
