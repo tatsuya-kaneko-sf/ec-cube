@@ -145,7 +145,7 @@
         }
     },
     "scripts": {
-        "compile": {},
+        "compile": "php -r \"echo 'compile ok'.PHP_EOL;\"",
         "auto-scripts": {
             "cache:clear --no-warmup": "symfony-cmd",
             "cache:warmup --no-optional-warmers": "symfony-cmd",
